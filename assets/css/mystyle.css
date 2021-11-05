@@ -1,0 +1,863 @@
+
+@font-face{ font-family: 'Graphik';
+    src: local('Graphik Extra light'), local('Graphik-Extra-light');
+    font-weight: 200;
+    font-style: normal;
+}
+*{
+    margin:0px;
+    padding: 0px;
+}
+* {
+    text-decoration: none!important;  
+}
+  
+
+/* Header Css */
+.header-section {
+border-bottom: 1px solid black;
+background:  #f9fafc;
+}
+.logo h2 a{
+    color: lightseagreen;
+    text-decoration: none;
+    font-family: graphik;
+    font-weight: bold;
+}
+
+.nav-item i.fa.fa-circle,i.fa.fa-wifi {
+    font-size: 10px;
+    position: absolute;
+    color: lightskyblue;
+}
+
+.logo{
+    margin-top: 10px;
+}
+
+.write-button button{
+    border: none;
+    border-radius: unset;
+    margin-top: 10px;
+    background: lightseagreen;
+}
+.write-button button:hover{
+   background:black;
+   color: white;
+}
+
+ul.navbar-nav.navigation li.nav-item a.nav-link {
+    color: black;
+    font-weight: bold;
+    margin-right: 5px;
+}
+ul.navbar-nav.navigation li.nav-item a.nav-link:hover{
+    border-bottom: 2px solid lightseagreen;
+}
+
+
+/* Title Css */
+.title-section{
+    background: url(../images/bg.webp);
+   background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title-text {
+    border: 1px solid beige;
+    background: white;
+    padding: 50px;
+    margin-top: 200px;
+}
+
+.title-text h1{
+    color: lightseagreen;
+    font-weight: bold;
+    font-family: graphik;
+}
+
+.get-price{
+    border: 1px solid white;
+    border-radius: 10px;
+    background: white;
+    padding: 50px;
+    margin-top: 200px;
+    margin: 75px;
+}
+
+.get-price h1{
+    font-weight: bold;
+    color: lightseagreen;
+    font-family: graphik;
+}
+
+.get-heading span{
+color: lightseagreen;
+}
+
+.form-group label{
+    color: lightseagreen;
+}
+
+.dropdown button {
+    border: none;
+    width: 100%;
+    background: white;
+    border: 1px
+ solid lightseagreen;
+    color: lightseagreen;
+    text-align: center;
+}
+
+.dropdown button:hover{
+    
+    background: lightseagreen;
+    border: 1px
+ solid lightseagreen;
+    color:white;
+}
+
+.dropdown-menu.show {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.price-heading h2 {
+    font-weight: bold;
+    color: lightseagreen;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.price-heading a {
+   margin-left: 50px;
+    background: turquoise;
+    padding: 15px 60px 15px 60px;
+    color: white;
+    text-decoration: none!important;
+    display:inline-block;
+}
+
+.price-heading a:hover {
+    background: turquoise;
+    color: black;
+}
+
+
+/* Why Choose Css */
+.choose-section{
+   padding-top: 40px;
+    background:  #f9fafc;
+}
+
+.why-heading h1{
+    font-weight: bold;
+    color: lightseagreen;
+    font-family: graphik;
+}
+
+.discount-offer {
+    background: black;
+    color: white;
+    padding-left: 15px;
+    width: 75%;
+    margin-top: 16px;
+    margin-left: 70px;
+}
+
+.discount-offer span{
+    color: lightseagreen;
+    font-weight: bold;
+}
+
+.box1 {
+    border: 1px
+ solid white;
+    padding: 40px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 4px 2px whitesmoke;
+    background: white;
+    min-height: 100%;
+}
+.box1.active{
+  color:white;
+    background: black;
+    border-radius: 3px;
+    box-shadow: 1px 1px 4px 2px whitesmoke;
+}
+
+.box1 span i{
+    color: lightseagreen;
+    background:lightcyan;
+    font-size: 40px;    
+}
+
+/* How It Works CSS */
+
+.how-it-works-section{
+    background:  #f9fafc;
+    padding: 50px;
+}
+
+.why-heading span{
+    background: lightcyan;
+    font-size: 30px;
+}
+.why-heading p{
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.order-now a {
+    background: black;
+    color: white;
+    padding: 20px 80px 20px 80px;
+    text-decoration: none!important;
+    /* margin: 12px; */
+    display: inline-block;
+}
+
+.order-now a:hover {
+    background: black;
+    color: lightseagreen
+}
+
+.order-now {
+    text-align: right;
+    margin-top: 20px;
+}
+.step1 h4{
+font-weight: bold;
+}
+
+.pink{
+    background: pink;
+}
+.blue{
+    background: lightskyblue;
+}
+    .fill-out {
+        border: 1px
+     solid lightcyan;
+        background: lightblue;
+        padding: 20px 40px 20px 40px;
+        min-height: 80%;
+    }
+
+    .fill-out:hover{
+     background: black;
+     color:lightblue;
+    }
+
+    .fill-out-pink{
+        border: 1px
+        solid seashell;
+           background: seashell;
+           padding: 20px 40px 20px 40px;
+           min-height: 80%;
+    }
+    .fill-out-pink:hover{
+        background: black;
+        color:lightpink;
+    }
+    /* Review Css */
+    .review-section{
+        background: black;
+        padding: 60px;
+    }
+
+    /* The dots/bullets/indicators */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color:#717171;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: lightseagreen;
+  }
+  .review3 p{
+     color: white;
+     font-size: 25px;
+  }
+  .review3 i{
+      line-height: inherit;
+      font-size: 50px;
+  }
+
+  .fa-quote-left{
+      color: lightseagreen;
+  }
+.text{
+    color: lightseagreen;
+}
+
+.star{
+    color: #f8a928;
+}
+
+.read-all-reviews{
+    text-align: right;
+}
+
+.read-all-reviews a{
+    text-decoration: none!important;
+    color: white;
+}
+.read-all-reviews a:hover{
+    color: white;
+}
+.read-all-reviews i{
+    color: lightslategray;
+}
+
+/* Read ALL Reviews Page  Css */
+.read-all-reviews-section{
+    background:  #f9fafc;
+}
+.review-heading{
+    margin-top: 30px;
+}
+.review-heading h1{
+    font-weight: bold;
+    color: darkslategrey;
+    font-family: graphik;
+}
+.client-id {
+    border: 1px
+ solid lightblue;
+    background: white;
+    padding: 15px 20px 15px 20px;
+}
+.client-id h5{
+   color: darkslategrey;
+   font-weight: bold;
+}
+
+.client-id h6{
+    color: gray;
+}
+.client-id span.star-right {
+    color: lightskyblue;
+  margin-left: 150px;
+}
+
+.features {
+    border: 1px
+ solid #baebe0;
+    border-radius: 7px;
+    padding: 30px;
+    margin: 100px;
+    background: #baebe0;
+    color: darkslategrey;
+}
+.feature-heading li {
+    list-style: none;
+    line-height: 3;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+i.fa.fa-check-circle {
+    color: white;
+    margin-top: 20px;
+}
+.feature-heading img{
+    vertical-align: middle;
+    border-style: none;
+    position: absolute;
+    top: 710px;
+    right: 83px;
+}
+
+/* Oue Services Css */
+.our-services-section{
+    background:  #f9fafc;
+    padding: 100px;
+}
+.our-services-heading h1{
+    color: lightseagreen;
+    font-weight: bold;
+    font-family: graphik;
+}
+
+.our-services-heading h2{
+    color: lightseagreen;
+    font-weight: bold;
+    font-family: graphik;
+}
+
+.service-links a{
+    border: 1px  solid white;
+    color:darkslategrey;
+    padding: 25px;
+    background: white;
+}
+
+.service-links a:hover{
+    border: 1px  solid black;
+    color:darkslategrey;
+    padding: 25px;
+}
+
+.service-links:hover .fa-circle-o:before{
+    content:"\f111";
+    color:lightseagreen;
+    opacity:0.4;
+  }
+.service-links a i {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: lightseagreen;
+}
+
+.service-links.mt-lg-5 {
+    display: inline-grid;
+    margin-right: 10px;
+    margin-bottom: -25px;
+}
+
+.features.services-features{
+   margin: 0px;
+    margin-top: 20px;
+    top:800px;
+}
+.feature-heading.services-feature-heading img {
+    top: 6px;
+    right: 0px;
+}
+
+/* Team Of Experts Css */
+.team-section{
+    background:  #f9fafc;
+    padding: 60px;
+}
+.teams{
+    background: #baebe0;
+    padding: 15px;
+}
+
+.team-heading h1 {
+    font-size: 55px;
+    font-weight: bold;
+    color: darkslategrey;
+    margin-top: 10px;
+}
+span.links {
+    font-size: 50px;
+    border: 5px
+ solid lightblue;
+    color: darkslategrey;
+}
+
+.team-order-button {
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 200px;
+}
+
+
+/* Footer Css */
+.footer-section{
+    background:  #f9fafc;
+}
+
+.essay-link hr{
+background: black;
+width: 100px;
+}
+
+.essay-link h4 {
+   font-family: graphik; 
+}
+.essay-link h4 a{
+    color: lightseagreen;
+    font-weight: bold;
+    font-size: 40px;
+}
+.essay-link li{
+color: darkslategrey;
+list-style: none;
+line-height: 2;
+}
+
+.essay-link li a{
+    color: darkslategrey;
+    }
+    .essay-link li a:hover{
+        color: lightseagreen;
+        }
+    
+.footer-links{
+margin-top: 88px;}
+
+.footer-links li{
+list-style: none;
+text-align: left;
+line-height: 2;
+}
+
+.footer-links li a{
+    list-style: none;
+    color: darkslategrey;
+    }
+
+
+    /* Last Footer Css */
+.last-footer{
+    background:  #f9fafc;
+    border-top: 1px solid gainsboro;
+    padding: 10px;
+}
+.copy-right{
+    font-size: 14px;
+    color: darkslategrey;
+}
+.copy-right a{
+    font-size: 14px;
+    color: darkslategrey;
+}
+
+.cards-images{
+    text-align: right;
+}
+
+.cards-images img{
+    margin-right: 10px;
+}
+
+/* ---------------------------------------- */
+
+/* Samples Pages */
+.samples-section{
+    background:  #f9fafc;
+}
+.sample-heading h1{
+color: darkslategrey;
+font-family: graphik;
+font-weight: bold;
+margin-top: 30px;
+}
+
+
+.pdf1{
+    border:1px solid #e1e2e4;
+    background: white;
+    padding: 50px;
+    margin: 8px;
+    position: relative;
+}
+
+.pdf1:hover{
+   color: turquoise;
+    background: darkslategrey;
+   
+}
+i.fa-file-pdf-o{
+    font-size: 15px;
+    color: turquoise;
+}
+
+.pdf1:before{
+border: 28px
+ solid transparent;
+    border-right-color: #f9fafc;
+    content: "";
+    position: absolute;
+    right: -29px;
+    top: -29px;
+    transform: rotate(
+135deg);
+}
+
+
+.pdf1:after {
+    border: 28px
+ solid transparent;
+    border-right-color: #e1e2e4;
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    transform: rotate(
+-45deg);
+    transition: all .3s ease-in;
+}
+
+
+/* Discounts Pages */
+.discount-section{
+    background:  #f9fafc;
+    padding: 50px;
+}
+
+.discount-heading h1{
+    margin-top: 30px;
+    color: darkslategrey;
+    font-weight: bold;
+    font-family: graphik;
+}
+
+.discount-heading p{
+  font-size: 20px;
+}
+.offer1 {
+    background: url(../images/50%.svg);
+    background-repeat: no-repeat;
+    border: 1px
+     solid #173b41;
+    background-color: #173b41;
+    padding: 30px;
+    padding-top: 108px;
+    background-position-x: center;
+    height:95%;
+    width: 100%;
+}
+
+.offer1 h3 {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 40px;
+    color: #cafdf3;
+}
+.offer1 h6 {
+    font-weight: bold;
+    color: #cafdf3;
+}
+
+.offer1 hr {
+    background: white;
+}
+
+.offer1 p {
+   color: white;
+   font-size: 16px;
+}
+
+.offer2 {
+    background: url(../images/10%.svg);
+    background-repeat: no-repeat;
+    border: 1px
+ solid white;
+    background-color: white;
+    padding: 30px;
+    padding-top: 108px;
+    background-position-x: center;
+   height: 95%;
+   width: 100%;
+}
+
+.offer2 h3 {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 40px;
+    color: darkslategrey;
+}
+.offer2 h6 {
+    font-weight: bold;
+    color: darkslategrey;
+}
+
+.offer2 hr{
+    background: white;
+}
+
+.offer2 p {
+   color: darkslategrey;
+   font-size: 16px;
+}
+
+
+.offer3 {
+    background: url(../images/15%.svg);
+    background-repeat: no-repeat;
+    border: 1px
+ solid white;
+    background-color:lightcyan;
+    padding: 30px;
+    padding-top: 108px;
+    background-position-x: center;
+   height: 95%;
+   width: 100%;
+}
+
+.offer3 h3 {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 40px;
+    color: darkslategrey;
+}
+.offer3 h6 {
+    font-weight: bold;
+    color: darkslategrey;
+}
+
+.offer3 hr{
+    background: white;
+}
+
+.offer3 p {
+   color: darkslategrey;
+   font-size: 16px;
+}
+
+
+.offer4{
+        align-self: flex-end;
+        background-color: #ffe0c0;
+        border-radius: 4px;
+        color: #173b41;
+        font-size: 2.2rem;
+        font-weight: 700;
+        line-height: 1.45;
+        margin-left: 100px;
+        max-width: 260px;
+        padding: 64px 20px 30px;
+        position: relative;
+       width: 100%;
+       height: 95%;
+    
+}
+.offer4:before {
+    background-image: url(../images/link.svg);
+    content: "";
+    height: 44px;
+    position: absolute;
+    right: 30px;
+    top: 14px;
+    width: 44px;
+}
+
+.offer4:after {
+    background: linear-gradient(
+120deg,#f9fafc,#f9fafc 60%,transparent 0,transparent);
+    content: "";
+    height: 14px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+.offer4 p {
+   color: darkslategrey;
+   font-size: 22px;
+}
+
+.offer4 a {
+    border: 1px
+ solid darkslategrey;
+    font-size: 10px;
+    background: darkslategrey;
+    color: white;
+    padding: 20px 40px;
+    display: inline-block;
+}
+
+.offer4 a:hover { 
+    color:black;
+    
+}
+
+/* Contact Page */
+.contact-section{
+    background:#f9fafc;
+    padding: 50px;
+}
+
+.contact-heading{
+   margin-top: 30px;
+}
+
+.contact-heading h1{
+  color: darkslategrey;
+  font-weight: bold;
+  font-family: graphik;
+ }
+
+.message {
+    border: 1px
+ solid  #ddd;
+    background: white;
+    padding: 16px;
+    display: inline-grid;
+    text-align: left;
+    height: 100%;
+}
+i.fa.fa-envelope {
+    color: darkslategrey;
+    font-size: 15px;
+}
+i.fa.fa-volume-control-phone{
+    color: lightskyblue;
+    font-size: 20px;
+}
+.message p{
+    margin-top: 10px;
+}
+
+.message strong {
+    color: darkslategrey;
+}
+
+i.fa.fa-envelope:before {
+    color: lightskyblue;
+}
+
+.live{
+    align-self: flex-end;
+    background-color: #baebe0;
+    color: #173b41;
+    flex: 0 1 280px;
+    margin-left: 80px;
+    padding: 50px 25px 30px 18px;
+    position: relative;
+
+}
+
+
+/* Modal */
+.modal-content{
+    background:url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.modal-body{
+    font-weight: bold;
+}
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 600px) {
+    .text {font-size: 11px}
+    .price-heading a {
+        margin-left: 0px;}
+        .feature-heading img{
+            top: 810px;
+        }
+        
+        .service-links.mt-lg-5 {        
+            margin-bottom: 10px;
+        }
+        .order-now a{
+               
+                text-align: center;
+                font-size: 10px;
+                margin: 0px;
+                padding: 16px;
+                margin-right: 15px;
+            }
+
+  }
+
+  @media (min-width: 768px){
+      .offer4{
+          margin-left: 0px;
+      }
+  }
